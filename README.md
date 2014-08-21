@@ -16,3 +16,6 @@ Screencasting Application.
 * Post Issues
 * Fork
 * Pull
+
+# LICENSE
+## [MIT](https://github.com/Naxmeify/Screenmaster/blob/master/LICENSE)
