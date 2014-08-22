@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		514F0B8719A79EE1004C8CE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 514F0B8519A79EE1004C8CE2 /* InfoPlist.strings */; };
+		514F0B8919A79EE1004C8CE2 /* ScreenmasterAudio.c in Sources */ = {isa = PBXBuildFile; fileRef = 514F0B8819A79EE1004C8CE2 /* ScreenmasterAudio.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		514F0B7D19A79EE1004C8CE2 /* ScreenmasterAudio.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenmasterAudio.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		514F0B8119A79EE1004C8CE2 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		514F0B8419A79EE1004C8CE2 /* ScreenmasterAudio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenmasterAudio-Info.plist"; sourceTree = "<group>"; };
+		514F0B8619A79EE1004C8CE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		514F0B8819A79EE1004C8CE2 /* ScreenmasterAudio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ScreenmasterAudio.c; sourceTree = "<group>"; };
+		514F0B8A19A79EE1004C8CE2 /* ScreenmasterAudio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenmasterAudio-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		514F0B7819A79EE1004C8CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		514F0B7219A79EE1004C8CE2 = {
+			isa = PBXGroup;
+			children = (
+				514F0B8219A79EE1004C8CE2 /* ScreenmasterAudio */,
+				514F0B7F19A79EE1004C8CE2 /* Frameworks */,
+				514F0B7E19A79EE1004C8CE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		514F0B7E19A79EE1004C8CE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				514F0B7D19A79EE1004C8CE2 /* ScreenmasterAudio.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		514F0B7F19A79EE1004C8CE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				514F0B8019A79EE1004C8CE2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		514F0B8019A79EE1004C8CE2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				514F0B8119A79EE1004C8CE2 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		514F0B8219A79EE1004C8CE2 /* ScreenmasterAudio */ = {
+			isa = PBXGroup;
+			children = (
+				514F0B8819A79EE1004C8CE2 /* ScreenmasterAudio.c */,
+				514F0B8319A79EE1004C8CE2 /* Supporting Files */,
+			);
+			path = ScreenmasterAudio;
+			sourceTree = "<group>";
+		};
+		514F0B8319A79EE1004C8CE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				514F0B8419A79EE1004C8CE2 /* ScreenmasterAudio-Info.plist */,
+				514F0B8519A79EE1004C8CE2 /* InfoPlist.strings */,
+				514F0B8A19A79EE1004C8CE2 /* ScreenmasterAudio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		514F0B7919A79EE1004C8CE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		514F0B7C19A79EE1004C8CE2 /* ScreenmasterAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 514F0B8D19A79EE1004C8CE2 /* Build configuration list for PBXNativeTarget "ScreenmasterAudio" */;
+			buildPhases = (
+				514F0B7719A79EE1004C8CE2 /* Sources */,
+				514F0B7819A79EE1004C8CE2 /* Frameworks */,
+				514F0B7919A79EE1004C8CE2 /* Headers */,
+				514F0B7A19A79EE1004C8CE2 /* Resources */,
+				514F0B7B19A79EE1004C8CE2 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenmasterAudio;
+			productName = ScreenmasterAudio;
+			productReference = 514F0B7D19A79EE1004C8CE2 /* ScreenmasterAudio.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		514F0B7319A79EE1004C8CE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ninevillage;
+			};
+			buildConfigurationList = 514F0B7619A79EE1004C8CE2 /* Build configuration list for PBXProject "ScreenmasterAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 514F0B7219A79EE1004C8CE2;
+			productRefGroup = 514F0B7E19A79EE1004C8CE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				514F0B7C19A79EE1004C8CE2 /* ScreenmasterAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		514F0B7A19A79EE1004C8CE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514F0B8719A79EE1004C8CE2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		514F0B7B19A79EE1004C8CE2 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		514F0B7719A79EE1004C8CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514F0B8919A79EE1004C8CE2 /* ScreenmasterAudio.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		514F0B8519A79EE1004C8CE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				514F0B8619A79EE1004C8CE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		514F0B8B19A79EE1004C8CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		514F0B8C19A79EE1004C8CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		514F0B8E19A79EE1004C8CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenmasterAudio/ScreenmasterAudio-Prefix.pch";
+				INFOPLIST_FILE = "ScreenmasterAudio/ScreenmasterAudio-Info.plist";
+				MODULE_NAME = com.ninevillage.ScreenmasterAudio;
+				MODULE_START = ScreenmasterAudio_start;
+				MODULE_STOP = ScreenmasterAudio_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		514F0B8F19A79EE1004C8CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenmasterAudio/ScreenmasterAudio-Prefix.pch";
+				INFOPLIST_FILE = "ScreenmasterAudio/ScreenmasterAudio-Info.plist";
+				MODULE_NAME = com.ninevillage.ScreenmasterAudio;
+				MODULE_START = ScreenmasterAudio_start;
+				MODULE_STOP = ScreenmasterAudio_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		514F0B7619A79EE1004C8CE2 /* Build configuration list for PBXProject "ScreenmasterAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514F0B8B19A79EE1004C8CE2 /* Debug */,
+				514F0B8C19A79EE1004C8CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		514F0B8D19A79EE1004C8CE2 /* Build configuration list for PBXNativeTarget "ScreenmasterAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514F0B8E19A79EE1004C8CE2 /* Debug */,
+				514F0B8F19A79EE1004C8CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 514F0B7319A79EE1004C8CE2 /* Project object */;
+}
